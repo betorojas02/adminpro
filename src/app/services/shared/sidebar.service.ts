@@ -5,5 +5,13 @@ import { Injectable } from '@angular/core';
 })
 export class SidebarService {
 
+
+  menu : any =[
+    {
+      titulo:'Principal',
+      icon : 'mdi mdi-gauge'
+    }
+  ];
+
   constructor() { }
 }
