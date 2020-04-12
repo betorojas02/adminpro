@@ -10,5 +10,6 @@ import { SettingsService  } from './services/service.index';
 export class AppComponent {
   title = 'adminpro';
 
-  constructor(public _ajustes:SettingsService){}
+  // tslint:disable-next-line:variable-name
+  constructor(public _ajustes: SettingsService) {}
 }

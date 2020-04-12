@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {  
-  SettingsService,
-  SidebarService,
-
-} from './service.index';
+import { SettingsService, SidebarService} from './service.index';
 import { ShredService } from './shared/shared.service';
 
 
@@ -13,7 +9,7 @@ import { ShredService } from './shared/shared.service';
   imports: [
     CommonModule
   ],
-  providers:[
+  providers: [
   SettingsService,
   ShredService,
   SidebarService
