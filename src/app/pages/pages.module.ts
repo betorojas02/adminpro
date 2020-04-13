@@ -14,19 +14,23 @@ import { ChartsModule } from 'ng2-charts';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
 
 
-    declarations:[
+    declarations: [
         PagesComponent,
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AccoutSettingComponent
+        AccoutSettingComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
